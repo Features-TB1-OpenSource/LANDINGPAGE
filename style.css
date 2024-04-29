@@ -929,6 +929,22 @@ appearance: none;
    color: #F2F3EB;
  }
 
+#changeLanguageButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #4CAF50;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#changeLanguageButton:hover {
+  background-color: white;
+  color: #4CAF50;
+}
+
 
  @media screen and (max-width: 768px) {
     .contacto #container {
