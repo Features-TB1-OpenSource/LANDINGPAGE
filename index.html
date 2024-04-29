@@ -35,13 +35,13 @@
             <img src="img/logoUniRider.png" alt="logoUF">
         </div>
         <nav class="navbar">
-            <a href="#home">Inicio</a>
-            <a href="#about">Servicio</a>
-            <a href="#producto">Funcionalidades</a>
-            <a href="#planes">planes </a>
-            <a href="#equipo">Nosotros</a>
-            <a href="#contacto">Contacto</a>
-
+            <a href="#home" data-en="Home" data-es="Inicio">Inicio</a>
+            <a href="#about" data-en="Service" data-es="Servicio">Servicio</a>
+            <a href="#producto" data-en="Features" data-es="Funcionalidades">Funcionalidades</a>
+            <a href="#planes" data-en="plans" data-es="planes">planes </a>
+            <a href="#equipo" data-en="About Us" data-es="Nosotros">Nosotros</a>
+            <a href="#contacto" data-en="Contact" data-es="Contacto">Contacto</a>
+            <button id="changeLanguageButton" data-en="Change Language" data-es="Cambiar idioma">Cambiar idioma</button>
         </nav>
 
         <div id="menu-btn" class="fas fa-bars"></div>
@@ -53,10 +53,10 @@
     <section class="home" id="home">
         <div class="content">
             <h3>ㅤㅤ</h3>
-            <h3>Bienvenido a <span>UniRider</span></h3>
-            <p>Ofrecemos la oportunidad de viajar
+            <h3 data-en="Welcome to" data-es="Bienvenido a">Bienvenido a <h3 data-en="UniRider" data-es="UniRider">UniRider</span></h3>
+            <p data-en="We offer the opportunity to travel efficiently at an affordable price." data-es="Ofrecemos la oportunidad de viajar de manera eficiente a un precio accesible.">Ofrecemos la oportunidad de viajar
                 de manera eficiente a un precio accesible.</p>
-            <P>Dile adiós a las largas esperas
+            <P data-en="Say goodbye to long waits and stressful trips." data-es="Dile adiós a las largas esperas y a los viajes estresantes.">Dile adiós a las largas esperas
                 y a los viajes estresantes.</P>
 
         </div>
@@ -104,7 +104,13 @@
             <div class="content" id="content">
 
                 <p></p>
-                <p>UniRider es una plataforma de carpooling que ofrece a los estudiantes la oportunidad de viajar de
+                <p data-en="UniRider is a carpooling platform that offers students the opportunity to travel efficiently 
+                and affordably. Our service eliminates long waits and stressful trips, giving you the peace of mind you 
+                need to focus on your education. Join our community of satisfied students and experience a worry-free journey 
+                to academic success." data-es="UniRider es una plataforma de carpooling que ofrece a los estudiantes la oportunidad 
+                de viajar de manera eficiente y asequible. Nuestro servicio elimina las largas esperas y los viajes estresantes, brindándote 
+                la tranquilidad que necesitas para concentrarte en tu educación. Únete a nuestra comunidad de estudiantes satisfechos y experimenta 
+                un viaje sin preocupaciones hacia el éxito académico.">UniRider es una plataforma de carpooling que ofrece a los estudiantes la oportunidad de viajar de
                     manera eficiente y asequible. Nuestro servicio elimina las largas esperas y los viajes estresantes,
                     brindándote la tranquilidad que necesitas para concentrarte en tu educación. Únete a nuestra
                     comunidad de estudiantes satisfechos y experimenta un viaje sin preocupaciones hacia el éxito
@@ -433,15 +439,6 @@
 
 
 
-    
-
-
-
-
-
-
-
-
 
 
 
@@ -461,13 +458,13 @@
             </div>
 
             <div class="box2">
-                <h4>Siguenos en Nuestras Redes</h4>
+                <h4 data-en="Follow us on Our Social Media" data-es="Siguenos en Nuestras Redes">Siguenos en Nuestras Redes</h4>
                 <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://www.instagram.com/" target="_blank"><i class="fab fab fa-instagram"></i></a>
                 <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fab fab fa-twitter"></i></a>
             </div>
             <div class="derechos">
-                <h3>UniRider 2024 Derechos de autor reservado</h3>
+                <h3 data-en="UniRider 2024 All Rights Reserved" data-es="UniRider 2024 Derechos de autor reservado">UniRider 2024 Derechos de autor reservado</h3>
             </div>
         </div>
 
@@ -476,8 +473,8 @@
     <!--FIN FOOTER-->
     <!--FIN FOOTER-->
     <!--Scrips JS-->
-    <script src="/script.js">
-    </script>
+    <script src="/script.js"></script>
+    <script src="idioma.js"></script>
 </body>
 
 </html>
